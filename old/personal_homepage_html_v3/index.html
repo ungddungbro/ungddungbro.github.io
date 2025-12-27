@@ -65,7 +65,7 @@
         </font>
 
       </td><td valign="middle" align="center">
-        <img src="./images/signature_image/signature_image03.gif" name="signature_image" width="125">
+        <img src="" name="signature_image" width="125" height="125" alt="signature_image">
 
         <script language="JavaScript">
           var images = [
@@ -76,8 +76,7 @@
             "signature_image05.gif"
           ];
 
-          var randIndex = Math.floor(Math.random() * images.length);
-          //document.write('<img src="' + images[randIndex] + '" alt="랜덤 이미지">');
+          var randIndex = Math.floor(Math.random() * images.length);          
           if (document.images) {
             document.images['signature_image'].src='./images/signature_image/' + images[randIndex];
           }
